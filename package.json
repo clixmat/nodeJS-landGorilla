@@ -1,0 +1,33 @@
+{
+    "name": "nodejs-landgorilla",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node dist/server.js",
+        "dev": "ts-node src/server.ts",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "description": "",
+    "dependencies": {
+        "bcryptjs": "^3.0.0",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "joi": "^17.13.3",
+        "jsonwebtoken": "^9.0.2",
+        "nodemon": "^3.1.9"
+    },
+    "devDependencies": {
+        "@types/joi": "^17.2.3",
+        "@types/bcryptjs": "^2.4.6",
+        "@types/express": "^5.0.0",
+        "@types/jsonwebtoken": "^9.0.8",
+        "@types/node": "^22.13.4",
+        "prettier": "^3.4.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.3"
+    }
+}
